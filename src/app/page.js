@@ -1,3 +1,8 @@
+import TomStory from "./components/tom/tom-story";
 export default function Home() {
-  return <div>Lazy Loading</div>;
+  return (
+    <div className="flex flex-wrap justify-center">
+      <TomStory />
+    </div>
+  );
 }
